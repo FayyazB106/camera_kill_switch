@@ -1,0 +1,10 @@
+# Normalize text line endings; keep PowerShell as CRLF for Windows tooling.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.iss text eol=crlf
+*.cs  text eol=crlf
+
+# Treat build outputs as binary if ever force-added.
+*.exe binary
+*.ico binary

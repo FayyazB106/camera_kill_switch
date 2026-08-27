@@ -1,0 +1,17 @@
+# Build artifacts (generated from source by the Build-*.ps1 scripts)
+*.exe
+*.ico
+dist/
+
+# Inno Setup output
+Output/
+
+# Runtime / debug
+logs.txt
+*.log
+*.tmp
+
+# OS cruft
+Thumbs.db
+.DS_Store
+desktop.ini
